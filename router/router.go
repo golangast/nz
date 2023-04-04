@@ -1,8 +1,8 @@
 package routes
 
 import (
-	"github.com/golangast/contribute/handler/get/api/first"
-	"github.com/golangast/contribute/handler/get/home"
+	"github.com/golangast/nz/handler/get/api/first"
+	"github.com/golangast/nz/handler/get/home"
 
 	"github.com/labstack/echo/v4"
 )
