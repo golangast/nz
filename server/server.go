@@ -64,7 +64,7 @@ func Server() {
 		Level: 5,
 	}))
 	e.Use(middleware.RateLimiter(middleware.NewRateLimiterMemoryStore(30)))
-	e.Static("/static", "static")
+	e.Static("/assets", "assets")
 	e.Logger.Fatal(e.Start(":5002"))
 
 }
