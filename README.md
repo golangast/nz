@@ -5,9 +5,9 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/golangast/contributefrontend)
 ![Go 100%](https://img.shields.io/badge/Go-100%25-blue)
 
-## FrontendContribute
+## nz
 - [nz](#nz)
-  - [FrontendContribute](#frontendcontribute)
+  - [nz](#nz-1)
   - [License is GNU Version 3](#license-is-gnu-version-3)
   - [General info](#general-info)
   - [How to use this tool](#how-to-use-this-tool)
