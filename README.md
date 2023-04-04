@@ -11,6 +11,9 @@
   - [License is GNU Version 3](#license-is-gnu-version-3)
   - [General info](#general-info)
   - [How to use this tool](#how-to-use-this-tool)
+  - [Setup](#setup)
+  - [To run this project for development, download it and run the following](#to-run-this-project-for-development-download-it-and-run-the-following)
+  - [To run a command](#to-run-a-command)
   - [Repository overview](#repository-overview)
 
 
@@ -23,11 +26,46 @@ Nic and Zach's project
 
 
 ## How to use this tool
+## Setup
+To run this project for development, download it and run the following
 ---
-```go
-go run main.go start //runs the server
+```
+go mod init "github.com/golangast/nz"
+
+go mod tidy
+
+go install github.com/spf13/cobra-cli@latest
+
+export PATH="~/go/bin:$PATH" //if you dont add it to your bashrc file then its just temparory anyways
+
+cobra-cli init
 ```
 ---
+
+to create command
+
+---
+```
+         cobra add yourcommandnamehere 
+example: cobra add second
+```
+---
+
+To Run the application
+
+---
+```
+go run main.go start
+```
+---
+
+To run a command
+---
+```
+example: go run main.go first
+```
+---
+
 
 ## Repository overview
 
